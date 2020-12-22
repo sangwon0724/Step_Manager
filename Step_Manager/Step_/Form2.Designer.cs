@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.listView1 = new System.Windows.Forms.ListView();
             this.chID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chPW = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -261,28 +262,28 @@
             // 축제관리ToolStripMenuItem
             // 
             this.축제관리ToolStripMenuItem.Name = "축제관리ToolStripMenuItem";
-            this.축제관리ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.축제관리ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.축제관리ToolStripMenuItem.Text = "축제 관리";
             this.축제관리ToolStripMenuItem.Click += new System.EventHandler(this.축제관리ToolStripMenuItem_Click);
             // 
             // 커뮤니티관리ToolStripMenuItem
             // 
             this.커뮤니티관리ToolStripMenuItem.Name = "커뮤니티관리ToolStripMenuItem";
-            this.커뮤니티관리ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.커뮤니티관리ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.커뮤니티관리ToolStripMenuItem.Text = "커뮤니티 관리";
             this.커뮤니티관리ToolStripMenuItem.Click += new System.EventHandler(this.커뮤니티관리ToolStripMenuItem_Click);
             // 
             // 리뷰관리ToolStripMenuItem
             // 
             this.리뷰관리ToolStripMenuItem.Name = "리뷰관리ToolStripMenuItem";
-            this.리뷰관리ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.리뷰관리ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.리뷰관리ToolStripMenuItem.Text = "리뷰 관리";
             this.리뷰관리ToolStripMenuItem.Click += new System.EventHandler(this.리뷰관리ToolStripMenuItem_Click);
             // 
             // 코멘트관리ToolStripMenuItem
             // 
             this.코멘트관리ToolStripMenuItem.Name = "코멘트관리ToolStripMenuItem";
-            this.코멘트관리ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.코멘트관리ToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.코멘트관리ToolStripMenuItem.Text = "댓글 관리";
             this.코멘트관리ToolStripMenuItem.Click += new System.EventHandler(this.코멘트관리ToolStripMenuItem_Click);
             // 
@@ -308,6 +309,7 @@
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(800, 300);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7));
             this.btnapply = new System.Windows.Forms.Button();
             this.btnDisable = new System.Windows.Forms.Button();
             this.btnAble = new System.Windows.Forms.Button();
@@ -56,9 +57,10 @@
             // 
             // btnapply
             // 
-            this.btnapply.Location = new System.Drawing.Point(202, 381);
+            this.btnapply.Location = new System.Drawing.Point(231, 476);
+            this.btnapply.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnapply.Name = "btnapply";
-            this.btnapply.Size = new System.Drawing.Size(171, 57);
+            this.btnapply.Size = new System.Drawing.Size(195, 71);
             this.btnapply.TabIndex = 40;
             this.btnapply.Text = "축제수락";
             this.btnapply.UseVisualStyleBackColor = true;
@@ -67,9 +69,10 @@
             // 
             // btnDisable
             // 
-            this.btnDisable.Location = new System.Drawing.Point(667, 195);
+            this.btnDisable.Location = new System.Drawing.Point(762, 244);
+            this.btnDisable.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDisable.Name = "btnDisable";
-            this.btnDisable.Size = new System.Drawing.Size(102, 23);
+            this.btnDisable.Size = new System.Drawing.Size(117, 29);
             this.btnDisable.TabIndex = 39;
             this.btnDisable.Text = "날짜고정하기";
             this.btnDisable.UseVisualStyleBackColor = true;
@@ -77,9 +80,10 @@
             // 
             // btnAble
             // 
-            this.btnAble.Location = new System.Drawing.Point(549, 195);
+            this.btnAble.Location = new System.Drawing.Point(627, 244);
+            this.btnAble.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAble.Name = "btnAble";
-            this.btnAble.Size = new System.Drawing.Size(102, 23);
+            this.btnAble.Size = new System.Drawing.Size(117, 29);
             this.btnAble.TabIndex = 38;
             this.btnAble.Text = "날짜변경하기";
             this.btnAble.UseVisualStyleBackColor = true;
@@ -87,9 +91,10 @@
             // 
             // btncancle
             // 
-            this.btncancle.Location = new System.Drawing.Point(624, 381);
+            this.btncancle.Location = new System.Drawing.Point(713, 476);
+            this.btncancle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btncancle.Name = "btncancle";
-            this.btncancle.Size = new System.Drawing.Size(145, 57);
+            this.btncancle.Size = new System.Drawing.Size(166, 71);
             this.btncancle.TabIndex = 37;
             this.btncancle.Text = "취소";
             this.btncancle.UseVisualStyleBackColor = true;
@@ -97,9 +102,10 @@
             // 
             // btnupdate
             // 
-            this.btnupdate.Location = new System.Drawing.Point(467, 381);
+            this.btnupdate.Location = new System.Drawing.Point(534, 476);
+            this.btnupdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(145, 57);
+            this.btnupdate.Size = new System.Drawing.Size(166, 71);
             this.btnupdate.TabIndex = 36;
             this.btnupdate.Text = "수정";
             this.btnupdate.UseVisualStyleBackColor = true;
@@ -107,9 +113,10 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(31, 381);
+            this.btnDelete.Location = new System.Drawing.Point(35, 476);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(165, 57);
+            this.btnDelete.Size = new System.Drawing.Size(189, 71);
             this.btnDelete.TabIndex = 35;
             this.btnDelete.Text = "삭제";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -118,87 +125,90 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(49, 335);
+            this.label7.Location = new System.Drawing.Point(56, 419);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(28, 12);
+            this.label7.Size = new System.Drawing.Size(35, 15);
             this.label7.TabIndex = 33;
             this.label7.Text = "URL";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(49, 308);
+            this.label6.Location = new System.Drawing.Point(56, 385);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.Size = new System.Drawing.Size(64, 15);
             this.label6.TabIndex = 32;
             this.label6.Text = "Location";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(49, 281);
+            this.label5.Location = new System.Drawing.Point(56, 351);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 12);
+            this.label5.Size = new System.Drawing.Size(35, 15);
             this.label5.TabIndex = 31;
             this.label5.Text = "TAG";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(465, 21);
+            this.label4.Location = new System.Drawing.Point(531, 26);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.Size = new System.Drawing.Size(82, 15);
             this.label4.TabIndex = 30;
             this.label4.Text = "지역소분류";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(387, 21);
+            this.label3.Location = new System.Drawing.Point(442, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.Size = new System.Drawing.Size(82, 15);
             this.label3.TabIndex = 34;
             this.label3.Text = "지역대분류";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 42);
+            this.label2.Location = new System.Drawing.Point(40, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 29;
             this.label2.Text = "축제명";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 15);
+            this.label1.Location = new System.Drawing.Point(40, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.Size = new System.Drawing.Size(37, 15);
             this.label1.TabIndex = 28;
             this.label1.Text = "번호";
             // 
             // tbStartDate
             // 
-            this.tbStartDate.Location = new System.Drawing.Point(549, 224);
+            this.tbStartDate.Location = new System.Drawing.Point(627, 280);
+            this.tbStartDate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbStartDate.Name = "tbStartDate";
             this.tbStartDate.ReadOnly = true;
-            this.tbStartDate.Size = new System.Drawing.Size(220, 21);
+            this.tbStartDate.Size = new System.Drawing.Size(251, 25);
             this.tbStartDate.TabIndex = 27;
             // 
             // tbEndDate
             // 
-            this.tbEndDate.Location = new System.Drawing.Point(549, 251);
+            this.tbEndDate.Location = new System.Drawing.Point(627, 314);
+            this.tbEndDate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbEndDate.Name = "tbEndDate";
             this.tbEndDate.ReadOnly = true;
-            this.tbEndDate.Size = new System.Drawing.Size(220, 21);
+            this.tbEndDate.Size = new System.Drawing.Size(251, 25);
             this.tbEndDate.TabIndex = 26;
             // 
             // monthCalendar1
             // 
             this.monthCalendar1.BackColor = System.Drawing.SystemColors.InfoText;
             this.monthCalendar1.Enabled = false;
-            this.monthCalendar1.Location = new System.Drawing.Point(549, 31);
+            this.monthCalendar1.Location = new System.Drawing.Point(627, 39);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(10, 11, 10, 11);
             this.monthCalendar1.MaxSelectionCount = 10000;
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 25;
@@ -206,67 +216,75 @@
             // 
             // tbURL
             // 
-            this.tbURL.Location = new System.Drawing.Point(149, 332);
+            this.tbURL.Location = new System.Drawing.Point(170, 415);
+            this.tbURL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbURL.Name = "tbURL";
-            this.tbURL.Size = new System.Drawing.Size(620, 21);
+            this.tbURL.Size = new System.Drawing.Size(708, 25);
             this.tbURL.TabIndex = 24;
             // 
             // tbLocation
             // 
-            this.tbLocation.Location = new System.Drawing.Point(149, 305);
+            this.tbLocation.Location = new System.Drawing.Point(170, 381);
+            this.tbLocation.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbLocation.Name = "tbLocation";
-            this.tbLocation.Size = new System.Drawing.Size(620, 21);
+            this.tbLocation.Size = new System.Drawing.Size(708, 25);
             this.tbLocation.TabIndex = 23;
             // 
             // tbTag
             // 
-            this.tbTag.Location = new System.Drawing.Point(149, 278);
+            this.tbTag.Location = new System.Drawing.Point(170, 348);
+            this.tbTag.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbTag.Name = "tbTag";
-            this.tbTag.Size = new System.Drawing.Size(620, 21);
+            this.tbTag.Size = new System.Drawing.Size(708, 25);
             this.tbTag.TabIndex = 22;
             // 
             // tbSmallArea
             // 
-            this.tbSmallArea.Location = new System.Drawing.Point(467, 40);
+            this.tbSmallArea.Location = new System.Drawing.Point(534, 50);
+            this.tbSmallArea.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbSmallArea.Name = "tbSmallArea";
-            this.tbSmallArea.Size = new System.Drawing.Size(70, 21);
+            this.tbSmallArea.Size = new System.Drawing.Size(79, 25);
             this.tbSmallArea.TabIndex = 21;
             // 
             // tbText
             // 
-            this.tbText.Location = new System.Drawing.Point(31, 67);
+            this.tbText.Location = new System.Drawing.Point(35, 84);
+            this.tbText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbText.Multiline = true;
             this.tbText.Name = "tbText";
-            this.tbText.Size = new System.Drawing.Size(506, 205);
+            this.tbText.Size = new System.Drawing.Size(578, 255);
             this.tbText.TabIndex = 20;
             // 
             // tbBigArea
             // 
-            this.tbBigArea.Location = new System.Drawing.Point(389, 40);
+            this.tbBigArea.Location = new System.Drawing.Point(445, 50);
+            this.tbBigArea.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbBigArea.Name = "tbBigArea";
-            this.tbBigArea.Size = new System.Drawing.Size(72, 21);
+            this.tbBigArea.Size = new System.Drawing.Size(82, 25);
             this.tbBigArea.TabIndex = 19;
             // 
             // tbno
             // 
-            this.tbno.Location = new System.Drawing.Point(79, 12);
+            this.tbno.Location = new System.Drawing.Point(90, 15);
+            this.tbno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbno.Name = "tbno";
             this.tbno.ReadOnly = true;
-            this.tbno.Size = new System.Drawing.Size(71, 21);
+            this.tbno.Size = new System.Drawing.Size(81, 25);
             this.tbno.TabIndex = 18;
             // 
             // tbfname
             // 
-            this.tbfname.Location = new System.Drawing.Point(79, 39);
+            this.tbfname.Location = new System.Drawing.Point(90, 49);
+            this.tbfname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbfname.Name = "tbfname";
-            this.tbfname.Size = new System.Drawing.Size(294, 21);
+            this.tbfname.Size = new System.Drawing.Size(335, 25);
             this.tbfname.TabIndex = 17;
             // 
             // Form7
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 562);
             this.Controls.Add(this.btnapply);
             this.Controls.Add(this.btnDisable);
             this.Controls.Add(this.btnAble);
@@ -292,7 +310,9 @@
             this.Controls.Add(this.tbno);
             this.Controls.Add(this.tbfname);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(800, 300);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form7";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "축제 수락";
